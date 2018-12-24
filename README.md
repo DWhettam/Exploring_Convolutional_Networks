@@ -1,14 +1,4 @@
-# Machine Learning Practical
+# Exploring Convolutional Networks
+This repo consists of work implenting CNN's and exploring ways of modelling context in CNN's for an assignment for Edinburgh University's [Machine Learning Practical](http://www.inf.ed.ac.uk/teaching/courses/mlp/index-2018.html) course. The framework used in this project is provided by the University and [can be found on GitHub](https://github.com/CSTR-Edinburgh/mlpractical), including complete setup instructions.
 
-This repository contains the code for the University of Edinburgh [School of Informatics](http://www.inf.ed.ac.uk) course [Machine Learning Practical](http://www.inf.ed.ac.uk/teaching/courses/mlp/).
-
-This assignment-based course is focused on the implementation and evaluation of machine learning systems. Students who do this course will have experience in the design, implementation, training, and evaluation of machine learning systems.
-
-The code in this repository is split into:
-
-  *  a Python package `mlp`, a [NumPy](http://www.numpy.org/) based neural network package designed specifically for the course that students will implement parts of and extend during the course labs and assignments,
-  *  a series of [Jupyter](http://jupyter.org/) notebooks in the `notebooks` directory containing explanatory material and coding exercises to be completed during the course labs.
-
-## Getting set up
-
-Detailed instructions for setting up a development environment for the course are given in [this file](notes/environment-set-up.md). Students doing the course will spend part of the first lab getting their own environment set up.
+The majority of work showcased in this repo is within [/mlp/layers.py](https://github.com/DWhettam/Exploring_Convolutional_Networks/blob/master/mlp/layers.py), including NumPy implementations of f-prop, b-prop and max pooling. Experiments were also conducted within a PyTorch framework comparing the effects of striding and dilation. The PyTorch scripts can be found in [/mlp/pytorch_experiment_scripts](https://github.com/DWhettam/Exploring_Convolutional_Networks/tree/master/mlp/pytorch_experiment_scripts), and some example experiments can be seen in [run-experiments.sh](https://github.com/DWhettam/Exploring_Convolutional_Networks/blob/master/run-experiments.sh)
